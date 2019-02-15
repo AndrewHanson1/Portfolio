@@ -7,7 +7,8 @@
 
   html {
       width: auto;
-      height: 100%;
+      
+      
   }
   
   body {
@@ -34,18 +35,18 @@
     padding: 0px;
     margin-bottom: 20px;
     color: #333;
-    background: white;
+    background: #000;
     clear: both;
     overflow: auto;
     width: 100%;
-    border: 3px solid black;
+   
     
   }
 
   nav {
 
     float: right;
-    width: 35%;
+    width: 12.7%;
     height: 75px;
     padding: 0px;
     margin-right: 125px;
@@ -58,7 +59,8 @@
     margin-top: 93px;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #4aaaa5;
+    
   }
   
   li {
@@ -67,14 +69,15 @@
   
   li a {
     display: block;
-    color: grey;
+    color: black;
     text-align: center; 
     text-decoration: none;
     overflow: hidden;
   }
   
   li a:hover {
-    background-color: #ffffff;
+    background-color: white;
+    
   }
 
 .insideheader {
@@ -84,13 +87,15 @@
     padding-top: 20px;
     margin-left: 135px;
     background: #4aaaa5;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    border-radius: 45%;
     
   }
 
 .andrew {
     margin-top: 40px;
+    font-size: 35px;
 }
 
   section {
@@ -104,28 +109,34 @@
     overflow: auto;
     clear: both;
     color: black;
-    background: #fff;
+    background: white;
     border: 3px solid black;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
     margin-bottom: 10%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 15%;
     
   }
 
   .aboutme {position: absolute;
     left: 0;
     top: 0;
-    border-bottom: #000 solid 5px;
+    border-bottom: #4aaaa5 double 8px;
     width: 100%;  
-    padding-top: 5px;    
-  }
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    
+      }
   
   #textinaboutme { color: #4aaaa5;
                     font-size: 45px;
+                    
+                    padding: 5px;
+                    
                     
                 
                     
@@ -148,6 +159,7 @@
 
   p {
     margin-top: 35px;
+    padding: 10px;
         
 
 
@@ -163,11 +175,11 @@
 
 
   footer {
-    clear: both;
     background: #666666;
-    position: relative;
-    height: 40px;
-    margin-top: -40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
     width: 100%;
     color: white;
   }
