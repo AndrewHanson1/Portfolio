@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+      width: auto;
+      height: 100%;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    height: 100%;
+    
+  }
+#container {
+    min-height: 100%
+
+
+
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 20px;
+
+}
+  
+  header {
+    padding: 0px;
+    margin-bottom: 20px;
+    color: #333;
+    background: white;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    border: 3px solid black;
+    
+  }
+
+  nav {
+
+    float: right;
+    width: 35%;
+    height: 75px;
+    padding: 0px;
+    margin-right: 125px;
+    
+  }
+
+  
+ ul {
+    list-style-type: none;
+    margin-top: 93px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center; 
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+  }
+
+.insideheader {
+    float: left;
+    width: 15%;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: 135px;
+    background: #4aaaa5;
+    font-size: 30px;
+    color: white;
+    
+  }
+
+.andrew {
+    margin-top: 40px;
+}
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  #maincontent {
+    overflow: auto;
+    clear: both;
+    color: black;
+    background: #fff;
+    border: 3px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  }
+
+  .aboutme {position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: #000 solid 5px;
+    width: 100%;  
+    padding-top: 5px;    
+  }
+  
+  #textinaboutme { color: #4aaaa5;
+                    font-size: 45px;
+                    
+                
+                    
+
+  }
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #214fb3;
+  }
+  
+  aside {
+    float: left;
+    padding: 10px;
+    overflow: auto;
+    clear: left;
+
+  }
+
+
+  p {
+    margin-top: 35px;
+        
+
+
+}
+  .image{
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    
+
+
+  }
+
+
+  footer {
+    clear: both;
+    background: #666666;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+    width: 100%;
+    color: white;
+  }
+  
+ 
