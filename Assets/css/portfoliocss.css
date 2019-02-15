@@ -76,11 +76,7 @@
   }
   
   li a:hover {
-<<<<<<< HEAD
     background-color: white;
-=======
-    background-color: #4aaaa5;
->>>>>>> 03d6778b442043a4f2adaf12aa4a02c54877b529
     
   }
 
@@ -99,11 +95,7 @@
 
 .andrew {
     margin-top: 40px;
-<<<<<<< HEAD
-    font-size: 35px;
-=======
     font-size: 44px;
->>>>>>> 03d6778b442043a4f2adaf12aa4a02c54877b529
 }
 
   section {
@@ -133,11 +125,7 @@
   .aboutme {position: absolute;
     left: 0;
     top: 0;
-<<<<<<< HEAD
-    border-bottom: #4aaaa5 double 8px;
-=======
-    border-bottom: silver double 8px;
->>>>>>> 03d6778b442043a4f2adaf12aa4a02c54877b529
+    border-bottom: double #4aaaa5 8px;
     width: 100%;  
     padding-top: 5px;  
     padding-bottom: 5px;
@@ -146,7 +134,7 @@
   
   #textinaboutme { color: #4aaaa5;
                     font-size: 45px;
-                    float: left;
+                
                     padding: 5px;
                     
                     padding: 5px;
