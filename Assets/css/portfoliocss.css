@@ -35,10 +35,13 @@
     padding: 0px;
     margin-bottom: 20px;
     color: #333;
-    background: #000;
+    background: #fff;
     clear: both;
     overflow: auto;
     width: 100%;
+    height: 155px;
+    position: relative;
+    border-bottom: 4px solid #cccccc;
    
     
   }
@@ -49,17 +52,18 @@
     width: 12.7%;
     height: 75px;
     padding: 0px;
-    margin-right: 125px;
+    margin-right: 205px;
     
   }
 
   
  ul {
     list-style-type: none;
-    margin-top: 93px;
     padding: 0;
     overflow: hidden;
-    background-color: #4aaaa5;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
     
   }
   
@@ -76,7 +80,8 @@
   }
   
   li a:hover {
-    background-color: white;
+    background-color: #4aaaa5;
+    
     
   }
 
@@ -85,7 +90,7 @@
     width: 15%;
     height: 150px;
     padding-top: 20px;
-    margin-left: 135px;
+    margin-left: 205px;
     background: #4aaaa5;
     font-size: 25px;
     color: white;
@@ -110,7 +115,7 @@
     clear: both;
     color: black;
     background: white;
-    border: 3px solid black;
+    border: 3px solid #dddddd;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
@@ -119,6 +124,8 @@
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15%;
+    width: 960px;
+    
     
   }
 
@@ -181,9 +188,49 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 30px;
+    height: 50px;
     width: 100%;
     color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
   }
   
- 
+ #contact{  background-color: #fff;
+            border: 3px solid #dddddd;
+            margin-top: 100px;
+            margin-left: 25%;
+            margin-right: 25%;
+            border-radius: 15%;
+            width: 960px;
+
+
+ }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  h3 { 
+       border-bottom: double 6px #4aaaa5;
+       color: #4aaaa5;
+       font-weight: normal;
+       font-size: 45px;
+       padding: 10px;
+
+  }
