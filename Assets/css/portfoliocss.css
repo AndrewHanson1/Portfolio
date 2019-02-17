@@ -121,8 +121,8 @@
     margin-top: 5%;
     margin-bottom: 10%;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 15%;
     width: 960px;
     
@@ -234,3 +234,59 @@
        padding: 10px;
 
   }
+
+.image1, .image2, .image3, .image4, .image5 {
+  float: left;
+  padding: 30px;
+}
+
+.image4, .image2{
+
+    clear: both;
+}
+
+
+.imagetext1{
+      background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 60px;
+      top: 180px;
+      
+}
+
+.imagetext2{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 60px;
+      top: 490px;
+}
+
+.imagetext3{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 370px;
+      top: 490px;
+}
+.imagetext4{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      bottom: 60px;
+      left: 60px;
+}
+.imagetext5{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      bottom: 60px;
+      left: 370px;
+
+}
